@@ -32,7 +32,7 @@ int main() {
         }
         std::cout << std::endl;
     }
-
+    std::filesystem::remove(std::filesystem::path("..") / "non-existing.cpp");
 
     return 0;
 }
